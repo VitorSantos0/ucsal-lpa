@@ -1,4 +1,4 @@
-package trabalhos;
+package jogos;
 
 import java.util.Scanner;
 
