@@ -100,6 +100,9 @@ public class JogoDaVelha {
 					return true;
 				}
 			}
+			if(matriz[1][0].equals(simbolo) && matriz[2][0].equals(simbolo)) {
+				return true;
+			}
 		}
 		if(matriz[1][0].equals(simbolo) && matriz[1][1].equals(simbolo) && matriz[1][2].equals(simbolo)) {
 			return true;
